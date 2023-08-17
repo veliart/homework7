@@ -25,16 +25,14 @@ public class Main {
     }
     public static void task2() {
         System.out.println("Задание 2");
-        int number = 0;
-        while (number < 10) {
-            number++;
+            for (int number = 1; number <= 10; number ++) {
             System.out.print(number + " ");
         }
         System.out.println();
-        while (number > 0) {
+        for (int number = 10; number > 0; number--) {
             System.out.print(number + " ");
-            number--;
         }
+        System.out.println();
     }
     public static void task3() {
         System.out.println("Задание 3");
